@@ -10,6 +10,8 @@ Explanation of quicksort and step by step explanation
 https://humanwhocodes.com/blog/2012/11/27/computer-science-in-javascript-quicksort/
 Recursive explanation of quicksort
 https://dev.to/benweiser/quicksort-a-js-breakdown-lfg#:~:text=Quicksort%20is%20a%20recursive%20sorting,O(n%20log%20n).
+Best video explanation so far
+https://www.youtube.com/watch?v=MZaf_9IZCrc&t=182s
 
 ? Although I was going to try to fit all of the mechanics of quicksort into one functions, I realized in order to more easily implement the sort, it might be needed to use a helper function to recursively sort
 
@@ -21,6 +23,7 @@ const quicksort = listOfNumbers => {
 }
 const helperQuicksort = (listOfNumbers, left, right) => {
     console.log(listOfNumbers, left, right);
+    
 }
 
 quicksort(nums1);
